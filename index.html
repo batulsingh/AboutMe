@@ -62,8 +62,8 @@
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
-                    <h1 class="display-3">Aspiring Developer</h1>
-                    <p class="lead mb-0">Also a Simpleton</p>
+                    <h1 class="display-3">Hello There !!</h1>
+                    <p class="lead mb-0">It's great to have you here, take a peek at my learning journey</p>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
     <section id="last-section">
         <div class="section-content">
             <div class="container">
-                <p class="lead">Hello there! I am pleased to have you here. Now that you've seen so much ice, How about an icebreaker section?
+                <p class="lead">I've been working mostly on backend for a while now, but I do need to tinker the UI code from time to time to get things working.
                 </p>
 
 
@@ -82,29 +82,29 @@
                         <div class="card-group">
                             <div class="card">
                                 <div class="card-block">
-                                    <h4 class="card-title">One of my pastimes</h4>
-                                    <h6 class="card-subtitle">Chess</h6>
+                                    <h4 class="card-title">Education and skills</h4>
+                                    <h6 class="card-subtitle">BE BITS-Pilani</h6>
                                 </div>
                                 <img src="img/chess.jpeg" alt="chessboard">
                                 <div class="card-block">
-                                    <p class="card-text">A good game to flex your mind and learn strategic thinking.
+                                    <p class="card-text">Full Stack Developer (Spring Boot, Java, Angular)
                                     </p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
-                                        data-target="#myModal">learn more</button>
+                                        data-target="#skillsModal">learn more</button>
                                 </div>
                             </div>
 
                             <div class="card">
                                 <div class="card-block">
-                                    <h4 class="card-title">Strategy &amp; Planning</h4>
-                                    <h6 class="card-subtitle">A hilarious memory</h6>
+                                    <h4 class="card-title">Work Experience</h4>
+                                    <h6 class="card-subtitle">Brief summary of responsibilities</h6>
                                 </div>
                                 <img src="img/mgr.jpg" alt="lady using laptop">
                                 <div class="card-block">
-                                    <p class="card-text">A comic moment from school days related to the merry-go-round.
+                                    <p class="card-text">Work related to microservices
                                     </p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
-                                        data-target="#myModal">learn more</button>
+                                        data-target="#experienceModal">learn more</button>
                                 </div>
                             </div>
 
@@ -112,15 +112,15 @@
 
                             <div class="card">
                                 <div class="card-block">
-                                    <h4 class="card-title">Programming &amp; Technical</h4>
-                                    <h6 class="card-subtitle">Market share wars</h6>
+                                    <h4 class="card-title">Projects</h4>
+                                    <h6 class="card-subtitle">Full stack project</h6>
                                 </div>
                                 <img src="img/w13.jpg" alt="my pic">
                                 <div class="card-block">
-                                    <p class="card-text">I used this image just for the looks.
+                                    <p class="card-text">A brief summary of spring boot project
                                     </p>
                                     <button type="button" class="btn btn-primary" data-toggle="modal"
-                                        data-target="#myModal">learn more</button>
+                                        data-target="#projecstModal">learn more</button>
                                 </div>
                             </div>
                         </div>
@@ -179,21 +179,76 @@
     <!--Carousel Ends-->
 
     <!--Modal Begins-->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+    <div class="modal fade" id="skillsModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5> Well, that's all I have </h5>
+                    <h5> Technical Skills </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Maybe I will have something interesting to add in the future.
+                    <h6>- Microservices</h6>
+                    <h6>- Spring Boot</h6>
+                    <h6>- Spring Security, Oauth, JWTs, Identity management (AAD, Keycloak)</h6>
+                    <h6>- Angular</h6>
+                    <h6>- Docker</h6>
+                    <h6>- Junit</h6>
+                    <h6>- Kubernetes</h6>
+                    <h6>- Kafka</h6>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="experienceModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5> Experience Summary </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    My current role involves developing microservices based on spring boot using kotlin.
+                    I also do some front-end work and the UI is built using Angular.
+                    The project uses kubernetes for deployments and Azure active directory for telemetry.
+                    The typical work day includes converting features from Jira specifications into working code,
+                    while maintaining a clean code base along with unit tests, local testing and deployment.
+                    This generally includes creating new APIs or adding some functionality to existing APIs and bug fixes.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="projectsModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5> Project overview</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Made a bike renting system where users can log in to screens attached to bikes using username and password.
+                    They can use and then drop the bikes at designated points. The project is based on microservices architecture where
+                    individual services handle specific functionalities like authentication, billing, inventory management and billing etc.
+                    PostgreSQL is used as database and this was deployed using docker. Kafka is used for communication between different services.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
                 </div>
             </div>
         </div>
@@ -219,7 +274,7 @@
                 <div class="col-md-4 col-xl-4">
 
 
-                    Tel. <a href="tel:#">00303030303</a>
+                    Tel. <a href="tel:#">8340054567</a>
 
                 </div>
             </div>
